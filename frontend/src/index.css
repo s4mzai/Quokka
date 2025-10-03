@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alan+Sans:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
+
+@theme{
+  --font-montserrat: 'Montserrat', 'sans-serif'
+}
+@theme{
+  --font-abril: 'Abril Fatface', 'serif'
+}
+@theme{
+  --font-alan: 'Alan Sans', 'sans-serif'
+}
+
 
 @custom-variant dark (&:is(.dark *));
 
