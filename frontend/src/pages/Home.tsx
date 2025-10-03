@@ -1,8 +1,11 @@
+import HomeNavbar from "@/components/LandingPage/Navbar"
 
 
 const Home = () => {
   return (
-    <div className="text-pink-500">Home</div>
+    <>
+        <HomeNavbar/>
+    </>
   )
 }
 
